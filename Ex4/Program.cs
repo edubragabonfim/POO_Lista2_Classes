@@ -6,9 +6,8 @@
         {
             Aluno eduardo = new Aluno("856193", "EDUARDO");
 
-            eduardo.FazerAtividadeAvaliativa(3);
-            eduardo.FazerAtividadeAvaliativa(9);
-            eduardo.FazerAtividadeAvaliativa(8);
+            eduardo.FazerAtividadeAvaliativa(5);
+            eduardo.FazerAtividadeAvaliativa(5);
             eduardo.FazerReavaliacao(1);
 
             Console.WriteLine(eduardo.Relatorio());

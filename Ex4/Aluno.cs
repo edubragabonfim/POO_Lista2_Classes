@@ -66,7 +66,7 @@ namespace Ex4
         /// <returns>Retorna a nota da Reavaliação.</returns>
         public double FazerReavaliacao(double pontuacaoReavaliacao)
         {
-            if(!_fezReavaliacao)
+            if(!_fezReavaliacao && CalculaSituacaoAluno() == "Reavaliação")
             {
                 _notaReavaliacao = pontuacaoReavaliacao;
                 _fezReavaliacao = true;
