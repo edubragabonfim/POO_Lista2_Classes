@@ -1,0 +1,44 @@
+Planejamento Exercício 2
+
+Classe Calculadora
+
+Atributos
+- numero1
+- numero2
+
+Métodos
+- Soma()
+- Subtracao()
+- Multiplicacao()
+- Divisao()
+- AlterarNumero1(double numero)
+- AlterarNumero2(double numero)
+- DivisaoValida(double numero2)
+
+
+Planejamento Exercício 3
+
+Classe Carro
+
+string placa
+int velocidade (até 120km/h)
+
+Acelerar
+Frear
+ExibirVelocidade
+ValidarVelocidade
+
+
+Planejamento Exercício 4
+
+Classe Aluno
+
+string matricula
+string nome
+int quantidade de atividades
+double somatoriaDePontos
+
+Fazer Atividade Avaliativa(pontuacao)
+	Nota é valida? (Validar se nota é <= 0 e <= 10)
+Situacao Do Aluno
+Fazer Reavaliacao(saber se ja fez ou nao, nota total entre 4 e 6)

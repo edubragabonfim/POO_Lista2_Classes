@@ -13,6 +13,8 @@
             carro.Frear(30);
             Console.WriteLine(carro.ExibirVelocidade());
 
+            //carro.ValidarVelocidade(10);
+
             carro.Acelerar(100); // Não pode mudar a velocidade
             Console.WriteLine(carro.ExibirVelocidade());
         }

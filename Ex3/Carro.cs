@@ -8,14 +8,9 @@ namespace Ex3
 {
     class Carro
     {
-        string _placa;
-        int _velocidade;
+        private string _placa;
+        private int _velocidade;
 
-
-        /// <summary>
-        /// Método construtor.
-        /// </summary>
-        /// <param name="placa">Identificador do carro.</param>
         public Carro(string placa)
         {
             _placa = placa; 
@@ -47,7 +42,6 @@ namespace Ex3
             int result = _velocidade + aceleracao;
             return (result >= 0 && result <= 120);
         }
-
 
         public string ExibirVelocidade()
         {
