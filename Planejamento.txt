@@ -37,8 +37,15 @@ string matricula
 string nome
 int quantidade de atividades
 double somatoriaDePontos
+bool Fez Reavaliacao
 
 Fazer Atividade Avaliativa(pontuacao)
-	Nota é valida? (Validar se nota é <= 0 e <= 10)
+	private Nota é valida? (Validar se nota é >= 0 e <= 10)
+
 Situacao Do Aluno
-Fazer Reavaliacao(saber se ja fez ou nao, nota total entre 4 e 6)
+	aprovado (nota final maior ou igual a 6), em reavaliação (entre 4 e 6) ou reprovado (menor que 4)
+
+Calcula Nota Final (somatoriaPontos/ quantidade avaliacoes)
+
+Fazer Reavaliacao (saber se ja fez ou nao, nota total entre 4 e 6)
+
