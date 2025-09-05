@@ -9,3 +9,7 @@ obj/
 
 # Logs 
 *.log
+
+# Dia
+*.dia~
+*.dia.autosave
